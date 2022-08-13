@@ -15,4 +15,10 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/65179bc7-b4c1-4907-a656-e6556b683f9b/deploy-status)](https://app.netlify.com/sites/glittery-hotteok-070638/deploys)
 
+<p align="left">
+  <img src="https://img.shields.io/github/repo-size/sendybram/cie_blog">
+  <img src="https://img.shields.io/github/license/sendybram/cie_blog">
+</p>
+
+
 Repo for my web

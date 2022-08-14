@@ -6,7 +6,7 @@ baseurl = "https://sendybram.my.id"
 theme = "congo"
 defaultContentLanguage = "en"
 
-disqusShortname = 'sendybram'
+disqusShortname = 'https-sendybram-my-id'
 disablePathToLower = true
 
 enableRobotsTXT = true

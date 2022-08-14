@@ -24,9 +24,7 @@ Mayoritas pekerjaan dalam survey pemetaan, terutama yang menggunakan jaring poli
 - Azimuth dengan dua titik pengukuran yang sudah diketahui koordinatnya
 - Azimuth dengan pengamatan matahari *(sun shot)*
 
-![](/sunshot1_1.jpg)
-
-Pengamatan matahari menggunakan theodolit *Wild T2* dan Prisma Roelofs (Sumber : http://www.dehilster.info)
+![](./sunshot1_1.jpg "Pengamatan matahari menggunakan theodolit *Wild T2* dan Prisma Roelofs (Sumber : http://www.dehilster.info)")
 
 Azimuth dengan pengamatan matahari merupakan salah satu metode dalam menentukan azimuth dengan memanfaatkan benda angkasa *(Celestial body)*.
 
@@ -45,41 +43,27 @@ Pengamatan matahari bisa dilakukan dengan berberapa cara tergantung pada peralat
 
 Pengamatan ini menggunakan filter gelap yang dipasang pada lensa objektif, matahari diamati secara langsung dengan menyinggungkan benang silang pada tepi-tepi matahari (*Quadrant Method*).
 
-![](/sunshot1_2.jpg)
+![](./sunshot1_2.jpg "Filter gelap pada Total Station Leica ")
 
-Filter gelap pada Total Station Leica 
-
-![](/sunshot1_3.jpg)
-
-Persinggungan benang silang dengan tepi matahari
+![](./sunshot1_3.jpg "Persinggungan benang silang dengan tepi matahari")
 
 Pada saat pengamatan, sketsa arah gerak dan posisi matahari pada kuadran juga perlu digambarkan. Hal ini untuk menentukan koreksi setengah diameter matahari dalam perhitungan, koreksi ini perlu karena azimuth matahari sebenarnya dihitung terhadap titik pusat matahari. Di pagi hari pada teropong tegak, bayangan matahari akan terlihat naik, sedangkan waktu sore akan terlihat turun.
 
-![](/sunshot1_4.jpg)
-
-Contoh sketsa posisi matahari dalam kuadran dan arah geraknya
+![](./sunshot1_4.jpg "Contoh sketsa posisi matahari dalam kuadran dan arah geraknya")
 
 ### **2. Pengamatan dengan memakai prisma Roelofs**
 
 Metode pengamatan ini menggunakan prisma khusus yang disebut prisma Roelofs, prisma ini dipasang pada lensa objektif, sehingga pengamat bisa dengan langsung membidik pusat matahari.
 
-![](/sunshot1_5.jpg)
+![](./sunshot1_5.jpg "Prisma Roelofs")
 
-Prisma Roelofs
-
-![](/sunshot1_6.jpg)
-
-Prisma Roelofs Pada Total Station Leica
+![](./sunshot1_6.jpg "Prisma Roelofs Pada Total Station Leica")
 
 Efek yang dihasilkan dari prisma ini adalah tampilan visual berupa 4 bayangan matahari di tiap kuadran dengan warna hijau monochromatik, perpotongan antara keempat bayangan ini merupakan titik pusat matahari.
 
-![](/sunshot1_7.jpg)
+![](./sunshot1_7.jpg "Pusat matahari dilihat dengan prisma Roelofs")
 
-Pusat matahari dilihat dengan prisma Roelofs
-
-![](/sunshot1_8.jpg)
-
-Bayangan hijau monochromatik dalam prisma roelofs
+![](./sunshot1_8.jpg "Bayangan hijau monochromatik dalam prisma roelofs")
 
 Keuntungan menggunakan Prisma Roelofs ini adalah :
 
@@ -94,17 +78,13 @@ Apabila tidak ada peralatan khusus seperti yang disebutkan diatas, maka pengamat
 
 Lensa pada total station/theodolit diatur sedemikian rupa sehingga didapat bayangan bulat matahari dan benang silang pada kertas, dan selanjutnya tepi matahari disinggungkan dengan benang silang seperti metode menggunakan filter gelap diatas (*Quadrant Method*).
 
-![](/sunshot1_9.jpg)
-
-Ilustrasi menadah bayangan matahari
+![](./sunshot1_9.jpg "Ilustrasi menadah bayangan matahari")
 
 Pada saat pengamatan, sketsa arah gerak dan posisi matahari pada kuadran juga perlu digambarkan. Hal ini diperlukan untuk menentukan koreksi setengah diameter matahari dalam perhitungan. Di pagi hari, bayangan matahari bergerak naik, sedangkan waktu sore akan bergerak turun. Hal ini perlu diperhatikan pada bayangan matahari yang dihasilkan, agar tidak terjadi kesalahan perhitungan disebabkan pembacaan sudut yang salah saat menyinggungkan benang silang, karena pada teropong tertentu justru bayangan matahari akan bergerak sebaliknya.
 
 Contoh pada gambar dibawah ini, semisal pengamatan dilakukan pada pagi hari dalam kuadran satu, jika pergerakan bayangan terbalik maka pembagian kuadran juga mengikuti.
 
-![](/sunshot1_10.jpg)
-
-Pergerakan matahari
+![](./sunshot1_10.jpg "Pergerakan matahari")
 
 ## **C. Metode Penentuan Azimuth Matahari**
 

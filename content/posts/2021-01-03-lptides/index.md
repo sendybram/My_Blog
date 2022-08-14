@@ -23,38 +23,25 @@ LP_Tides dikembangkan oleh mas **Teguh Sulistian** yang merupakan salah seorang 
 
 Program ini bukanlah program yang berdiri sendiri, melainkan tetap  berjalan dalam aplikasi matlab, maka dari itu sebelum menggunakannya  kita perlu menginstall terlebih dahulu aplikasi Matlab dengan minimum  versi matlab 2019 atau Matlab Runtime dengan minimum versi 2019b.
 
-![img](/1.jpg)
-Contoh tampilan program LP-Tides
+![img](./1.jpg "Contoh tampilan program LP-Tides")
 
 Program ini membawa fitur dasar dari T-Tide, yaitu **analisa konstanta harmonik dan prediksi pasang surut**. Program ini juga dapat menyajikan grafik dari hasil observasi, rekonstruksinya dan grafik prediksinya.
 
 Selain itu, LP-Tides juga terdapat fitur **Loss Day Validation** yang berfungsi untuk melakukan pengecekan gap dari data pengamatan dan fitur **Fill Gap** yang berfungsi untuk mengisi kekosongan dari gap data.
 
-![img](/2.jpg)
+![img](./2.jpg "Fitur Fill Gap")
 
-Fitur Fill Gap
-
-![img](/3.jpg)
-
-Fitur Loss Day Validation
+![img](./3.jpg "Fitur Loss Day Validation")
 
 Hasil dari analisa harmonik dan prediksi pasut juga dapat disimpan dalam format text ke dalam folder yang di inginkan.
 
-![img](/4.jpg)
+![img](./4.jpg "Hasil analisa dalam tampilan LP-Tides")
 
-Hasil analisa dalam tampilan LP-Tides
+![img](./5.jpg "Eksport hasil analisa dalam format text")
 
-![img](/5.jpg)
+![img](./6.jpg "Contoh grafik prediksi")
 
-Eksport hasil analisa dalam format text
-
-![img](/6.jpg)
-
-Contoh grafik prediksi
-
-![img](/7.jpg)
-
-Eksport hasil prediksi dalam format text
+![img](./7.jpg "Eksport hasil prediksi dalam format text")
 
 Tutorial, contoh data dan program LP-Tides ini dapat di download langsung di channel github milik mas Teguh Sulistian
 [ https://github.com/teguhsulistian/LP-TIDES.V.1.0](https://github.com/teguhsulistian/LP-TIDES.V.1.0)

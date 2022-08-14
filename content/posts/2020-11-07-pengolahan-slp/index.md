@@ -40,22 +40,22 @@ SLP64 bisa berjalan dalam sistem operasi linux dan Windows, kali ini saya memaka
 - Selanjutnya langkah yang diperlukan adalah mengatur file **STAsion INFormation Data INput (STAINFO.DIN)** yang ada dalam folder **DIN**, buka file ini dengan notepad atau aplikasi pembaca text lainnya.
 - Jika kalian lihat meta data yang disertakan, kalian bisa lihat nomor stasiun pasutnya dalam nama **JASL** dan informasi lainnya. 
 
-![](/slp_1.jpg)
+![](./slp_1.jpg "Metadata")
 
 - File **STAINFO.DIN** berisi **nomor stasiun** (sesuai yang terdaftar dalam [UHSLC](https://uhslc.soest.hawaii.edu/)), **nama stasiun, latitude, longitude, time meridian,** skema waktu, waktu pertama stasiun aktif, **negara** dan plot factor. List data yang berwarna hijau di atas tidak digunakan dalam perhitungan jadi bisa dikosongkan atau ikut data di atasnya.
 
-![](/slp_2.jpg)
+![](./slp_2.jpg "File STAINFO.DIN")
 
 - Beberapa stasiun pasut Indonesia sudah terdaftar dalam UHSLC, seperti contoh stasiun **Prigi** di atas, jika ada perbedaan antara nomor stasiun di File **STAINFO.DIN** dan metadata, tinggal disesuaikan aja dengan yang ada di metadata.
   Terkadang ada stasiun pasut Indonesia yang belum ada dalam File **STAINFO.DIN**, jadi kita perlu membuat definisi baru dari stasiun pasutnya, seperti contoh di bawah ini stasiun semarang dengan nomor stasiun 923**.**
 
-![](/slp_3.jpg)
+![](./slp_3.jpg "Menambahkan informasi Stasiun Pasut")
 
 ## **3. Konversi Data Pengamatan**
 
 Konversi data ini bertujuan untuk mengubah format data pengamatan ke dalam format yang bisa dibaca oleh SLP64, programnya adalah csv\_to\_fixed\_columns.py dan convert.py yang ada dalam folder **UTIL.** OK, waktunya buka *command prompt* genks,,
 
-![](/slp_4.jpg)
+![](./slp_4.jpg "Konversi data")
 
 - run program csv\_to\_fixed\_columns.py, lalu akan keluar beberapa perintah isian seperti di bawah ini
 - *Originator CSV filename* : isi dengan nama file csv kita, ingat besar kecil hurufnya ya.
@@ -65,7 +65,7 @@ Konversi data ini bertujuan untuk mengubah format data pengamatan ke dalam forma
 - Setelah itu output file nya akan tersimpan dalam folder **DAT**
 - Ulangi untuk file CSV lainnya
 
-![](/slp_5.jpg)
+![](./slp_5.jpg "Konversi data")
 
 - run program convert.py, lalu akan keluar beberapa perintah isian seperti di bawah ini
 - *Originator filename* : isi dengan nama file **DAT** kita, ingat besar kecil hurufnya ya, contoh file **prigi.dat**.
@@ -76,7 +76,7 @@ Konversi data ini bertujuan untuk mengubah format data pengamatan ke dalam forma
 - Output akan tersimpan di folder **DAT**, misal **wa12517.dat** berarti sequance process ke-a, station number 125 tahun 2017.
 - Ulangi untuk file DAT lainnya
 
-![](/slp_6.jpg)
+![](./slp_6.jpg "Memilih Station Number")
 
 - Jika data yang kita pakai memiliki banyak kekosongan data, maka kita perlu melakukan melakukan pengisian gap data dengan perintah **fillvm.exe** yang ada dalam folder **util.** Hasil dari pengisian data kosong akan disimpan dalam folder **dat** dengan nama file adalah **fill.** 
 - Karena data yang dipakai disini tidak ada kekosongan data maka tidak dilakukan pengisian gap data.
@@ -89,7 +89,7 @@ Setelah semua data sudah siap dan sesuai format, proses analisa untuk mencari ni
 - Setelah program berjalan, akan muncul perintah untuk memasukkan nomor statiun pengamatan yaitu **125** (*enter station number : 125*)
 - Kemudian akan muncul informasi stasiun pengamatan seperti yang ada dalam file **stainfo.din,** jika tidak perlu merubah data, pilih **N** (*do you need to modify any of the above : N*)
 
-![](/slp_7.jpg)
+![](./slp_7.jpg "Running TIDEANL.BAT")
 
 - Selanjutnya pilih **Y** untuk waktu yang bereferensi pada local time
 - Masukkan waktu dimulainya pengamatan dalam format HHDDMMYYYY, **0001012017**
@@ -97,7 +97,7 @@ Setelah semua data sudah siap dan sesuai format, proses analisa untuk mencari ni
 - Masukkan keterangan versi output file misalnya dengan huruf **A**
 - Setelah proses selesai, hasil pengolahan akan tersimpan dalam folder **harm** yang ada di dalam folder **Tide** dengan nama **HARM125.LIS** dan **INP125.PRD**
 
-![](/slp_8.jpg)
+![](./slp_8.jpg "Hasil Analisa Pasut")
 
 Konstanta Harmonik dalam file HARM125 
 
@@ -116,7 +116,7 @@ Selain untuk mendapatkan nilai konstanta harmonik, fitur SLP64 yang lain adalah 
 
 (Perintah **tideprd.py** digunakan untuk melakukan prediksi yang lebih dari satu tahun secara serentak berurutan, sedangkan untuk melakukan prediksi per tahun atau satu per satu menggunakan perintah **tideprd.bat**)
 
-![](/slp_9.jpg)
+![](./slp_9.jpg "Running tideprd.py")
 
 - Kemudian isikan data parameter sesuai instruksi yang diberikan
 - File version for output predicted tides file (eg. a): A
@@ -127,9 +127,9 @@ Selain untuk mendapatkan nilai konstanta harmonik, fitur SLP64 yang lain adalah 
 - *Code for desired output type : 1* (pilih opsi 1 untuk menghasilkan data prediksi per jam)
 - Selanjutnya hasil prediksi per tahun akan disimpan dalam folder **prd** yang ada di dalam folder SLP64, unit satuan dalam hasil prediksi adalah milimeter.
 
-![](/slp_10.jpg)
+![](./slp_10.jpg "File hasil prediksi")
 
-![](/slp_11.jpg)
+![](./slp_11.jpg "Hasil Prediksi")
 
 Contoh hasil prediksi
 

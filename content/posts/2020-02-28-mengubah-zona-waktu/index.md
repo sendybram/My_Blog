@@ -33,9 +33,7 @@ utctime{i}=datetime(data{i}(:,1),data{i}(:,2),data{i}(:,3),data{i}(:,4),data{i}(
 - Setelah itu running scriptnya, dan akan keluar jendela dialog untuk memilih folder yang berisi data pengamatan dalam waktu utc.
 - Jika sudah selesai, data pengamatan dengan waktu lokal akan tersimpan dalam folder **lokal**. 
 
-![lokal](/zone2.jpg)
-
-Contoh data yang sudah diubah kedalam local time
+![lokal](./zone2.jpg "Contoh data yang sudah diubah kedalam local time")
 
 Oke sip, Selamat mencoba.
 

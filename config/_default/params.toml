@@ -14,7 +14,7 @@ enableCodeCopy = true
 [footer]
   showCopyright = true
   showThemeAttribution = true
-  footer.showAppearanceSwitcher = true
+  showAppearanceSwitcher = true
   footer.showScrollToTop = true
 
 [homepage]

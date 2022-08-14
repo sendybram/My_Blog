@@ -93,11 +93,11 @@ Setelah proses selesai, maka akan ada folder baru bernama MB-System. Cara ini be
 
 10. Setelah semua selesai, coba kita run perintah MB-System untuk mengecek apakah software ini sudah terinstal dengan benar, bila software telah terinstal dengan benar hasilnya seperti contoh berikut.
 
-![](/mbs_1.jpg)
+![](./mbs_1.jpg "Perintah mbinfo")
 
 11. Untuk model pasut global dari OTPS yang sudah terintegrasi dengan MB-System, hasilnya adalah seperti dibawah ini
 
-![](/mbs_2.jpg)
+![](./mbs_2.jpg "Perintah mbotps")
 
 -----
 
@@ -154,7 +154,7 @@ lalu copy line dibawah ini ke dalam file *.profile*
 9. Log out dari desktop linux lalu log in kembali.
 10. Buka terminal, lalu coba masukkan perintah dari MB-System untuk mengetes fungsinya.
 
-![](/mbs_3.jpg)
+![](./mbs_3.jpg "Perintah mbinfo")
 
 Contoh hasil perintah MB-System, mbinfo dan mbotps 
 
@@ -180,7 +180,7 @@ sudo make install
 	- Buka terminal dan masukkan perintah berikut
 	`gmt set IO\_NC4\_CHUNK\_SIZE classic`
 
-![](/mbs_4.jpg)
+![](./mbs_4.jpg "Perintah gmt mbswath")
 
 Contoh perintah MB-System yang sudah terintegrasi dengan GMT
 

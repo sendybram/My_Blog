@@ -32,7 +32,7 @@ Data yang digunakan pada tutorial ini adalah data dari **stasiun pasut Pelabuhan
 ### 1. Data Input
 Data input yang dibutuhkan pada tutorial ini berisi 7 kolom data yaitu tahun, bulan, hari, jam, menit, detik, dan tinggi pasut. Contoh data yang disertakan dalam 2 format yaitu .txt dan .xls.
 
-![Contoh Data](./ttide1.jpg)
+![Contoh Data](./ttide1.jpg "Contoh Data")
 
 Selain itu kita juga memerlukan data tambahan lain yaitu **Latitude atau lintang lokasi** stasiun pengamatan, pada contoh ini adalah **0° 59′ 48″ S**
 
@@ -96,7 +96,7 @@ Sebelum menjalankan script, untuk memudahkan, pastikan file script dan raw data 
 
 Setelah itu pada matlab, ketik di dalam command window nama script file yang sudah kita simpan tadi, lalu klik enter.
 
-![Running Script](./ttide2.jpg)
+![Running Script](./ttide2.jpg "Running Script")
 
 ![Process Run](./ttide3.jpg)
 
@@ -104,7 +104,7 @@ Hasil konstanta harmonik pasut nantinya akan tersimpan dengan nama seperti yang 
 
 Contoh isi dari output hasil pengolahan di atas adalah sebagai berikut,,
 
-![Contoh Hasil](./ttide4.jpg)
+![Contoh Hasil](./ttide4.jpg "Hasil Pengolahan")
 
 Dari output diatas bisa dilihat beberapa informasi penting yang terkandung, diantaranya :
 
@@ -174,7 +174,7 @@ fclose(fid);
 
 Terakhir simpan script di atas, misal dengan nama **padang2.m**, lalu panggil script tsb di dalam command window matlab, jika berhasil maka hasil prediksinya akan muncul seperti berikut
 
- ![Contoh Prediksi](./ttide5.jpeg)
+ ![Contoh Prediksi](./ttide5.jpeg "Hasil Prediksi")
 
 Oke secara umum fungsi analisa dan prediksi pasut menggunakan T_TIDE adalah seperti yg sudah dijelaskan di atas, untuk membuat grafik dan variasi lain dalam menggunakan T_Tide mungkin akan bersambung dalam postingan berikutnya. 
 

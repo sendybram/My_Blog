@@ -46,7 +46,7 @@ e. Di `predictname='Prediksi Pasut Tahun 2018';` ganti Prediksi Pasut Tahun 2018
 
 Setelah script kita jalankan akan muncul tampilan sebagai berikut, tunggu hingga **SELESAI**.
 
-![](/2ttide2.jpg)
+![](./2ttide2.jpg "Running Script")
 
 Script ini akan menghasilkan  
 * file **hasil analisa**,  
@@ -61,17 +61,15 @@ Script ini akan menghasilkan
 
 File yang dihasilkan adalah sebagai berikut :
 
-![hasil1](/2ttide3.jpg)
+![hasil1](./2ttide3.jpg "File Output")
 
-![hasil grafik](/2ttide4.jpg)
+![hasil grafik](./2ttide4.jpg "Grafik Output")
 
-![](/2ttide5.jpg)
+![](./2ttide5.jpg "Hasil Prediksi")
 
-![report](/2ttide6.jpg)
+![report](./2ttide6.jpg "Report Analisa")
 
-![](/2ttide7.jpg)
-
-_Perbandingan hasil observasi dan pengolahan beserta residunya_
+![](./2ttide7.jpg "_Perbandingan hasil observasi dan pengolahan beserta residunya_")
 
 Oke sekian untuk postingan tentang analisa harmonik dan prediksi pasut, selanjutnya bisa dikembangkan sesuai tujuan masing masing, semoga bermanfaat dan terimakasih :D
 

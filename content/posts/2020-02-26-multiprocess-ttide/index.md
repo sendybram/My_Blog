@@ -22,13 +22,13 @@ File data yang digunakan dalam bentuk excel dan semua bisa di download :floppy_d
 - Selanjutnya kita running script **multipleproc.m**
 - Ketika muncul jendela dialog, pilih folder tempat kita menyimpan filenya, dalam hal ini folder **data**
 
-![contoh data](./multi1.jpg)
+![contoh data](./multi1.jpg "Contoh data")
 
 ![Pilih lokasi simpan](./multi2.jpg "Memilih folder penyimpanan data")
 
 - Setelah memilih folder data yang kita pakai, maka selanjutnya T\_Tide akan langsung memproses seluruh datanya dan kemudian hasilnya akan tersimpan di folder baru bernama **Report**
 
-![](./multi3.jpg)
+![](./multi3.jpg " Running Script")
 
 ![report](./multi4.jpg "Contoh report hasil pengolahan")
 

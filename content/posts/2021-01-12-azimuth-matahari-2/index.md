@@ -15,6 +15,7 @@ toc: true
 slug: penentuan-azimuth-2
 ---
 
+{{< katex >}}
 ## **A. Prosedur Pengamatan**
 
 Dalam melakukan pengamatan langkah yang diperlukan adalah :
@@ -72,18 +73,18 @@ AZ = \tan^{-1} \frac{-\sin LHA}{\cos \phi \tan \delta - \sin \phi \cos LHA}
 $$
 
 LHA = Local Hour Angle  
-$\phi$ = Deklinasi  
-$\delta$ = Koordinat Lintang / Latitude  
+\\(\phi\\) = Deklinasi  
+\\(\delta\\) = Koordinat Lintang / Latitude  
 
 a. Langkah pertama dalam proses perhitungan adalah mengkonversi waktu tiap pengamatan dari ***local time*** ke dalam ***Universal Time (GMT)***. Untuk WIB **-7**, untuk WITA **-8**, untuk WIT adalah **-9**.
 
 b. Selanjutnya adalah mencari data Ephemeris yang dibutuhkan (**Semi Diameter Matahari, LHA** dan **Deklinasi**), di sini saya mencarinya menggunakan almanak nautika. Untuk mencari data ephemeris digunakan waktu pada GMT. Nilai **LHA** tidak ditampilkan secara langsung pada almanak nautika, namun bisa dicari dengan rumus berikut
 
-LHA = GHA - W$\lambda$ (barat longitude)
+LHA = GHA - W\\(\lambda\\) (barat longitude)
 
-LHA = GHA - E$\lambda$ (timur longitude)
+LHA = GHA - E\\(\lambda\\) (timur longitude)
 
-$\lambda$ = Koordinat bujur / Longitude
+\\(\lambda\\) = Koordinat bujur / Longitude
 
 Nilai GHA pada rumus adalah GHA pada waktu pengamatan (dalam GMT). 
 Untuk mendapatkannya adalah melalui tabel GHA dalam almanak nautika kemudian +/- dengan nilai ***increments*** nya
@@ -96,8 +97,8 @@ d. Setelah nilai LHA, Deklinasi dan koordinat lintang didapatkan, kita bisa meng
 
 | Nilai LHA | Koreksi jika AZ positif | Koreksi jika AZ Negatif |
 | :--: | :---------------------: | :--: |
-| 0 - 180$\degree$ | 180$\degree$ | 360$\degree$ |
-| 180 - 360$\degree$ | 0$\degree$ | 180$\degree$ |
+| 0 - 180\\(\degree\\) | 180\\(\degree\\) | 360\\(\degree\\) |
+| 180 - 360\\(\degree\\) | 0\\(\degree\\) | 180\\(\degree\\) |
 
 e. Pada metode singgung tepi matahari (quadrant method), kita perlu melakukan koreksi 1/2 diameter matahari (1/2 *dH*) untuk mendapatkan sudut sebenarnya pada titik pusat matahari. Rumusnya adalah sebagai berikut
 
@@ -110,9 +111,9 @@ $$
 
 LHA = Local Hour Angle
 
-*$\phi$* = Deklinasi
+*\\(\phi\\)* = Deklinasi
 
-*$\delta$* = Koordinat Lintang / Latitude
+*\\(\delta\\)* = Koordinat Lintang / Latitude
 
 Semidiameter = didapat dari almanak nautika
 

@@ -1,7 +1,7 @@
 ---
 title: Penentuan Azimuth Dengan Pengamatan Matahari – Bagian 2
 date: 2021-01-12
-draft: false
+draft: true
 math: true
 tags: 
 - Sunshot

@@ -9,9 +9,6 @@ tags:
 categories : 
 - Topografi
 typora-root-url: ./
-thumbnail : "./thumbnail.jpg"
-featureImage: "./thumbnail.jpg"
-toc: true
 slug: penentuan-azimuth-2
 ---
 
